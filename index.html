@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+       <link href="./styles/estilos.css" rel="stylesheet" />
         <title>Este es el titulo</title>
         <description>Esta es la description</description>
     </head>
@@ -11,8 +12,8 @@
         <header>
             <ol>
                 <h3>Esta es una lista ordenada:</h3>
-                <li>Elemento 1</li>
-                <li>Elemento 3</li>
+                <li class="textoGris">Elemento 1</li>
+                <li class="textoAzul">Elemento 3</li>
                 <li>Elemento 3</li>
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
@@ -25,7 +26,7 @@
                 <li>Elemento 4</li>
                 <li>Elemento 5</li>
              </ul>
-             <div>hola, estes es un div</div>
+             <div class="textoGrandeNegrita textoAzul" >hola, estes es un div</div>
         </header>
         <main>
             <section>
@@ -36,7 +37,7 @@
                 <h5>Esto es un titulo H5</h5>
                 <h6>Esto es un titulo H6</h6>
                 <a href="https://google.com">
-                    <img 
+                    <img class="imagenPequena"
                     src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
                     alt='logo google'
                     />               
@@ -45,21 +46,21 @@
                 <a href="./formulario.html">Este es un link interno</a>
                 <article>
                     <h3>Parrafo 1</h3>
-                    <p>
+                    <p class="parrafoGris parrafoAngosto">
                         este es un parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Impedit architecto, tempore, nihil doloremque officia voluptatibus possimus maxime 
                         quibusdam praesentium mollitia odio cupiditate culpa? Commodi suscipit corrupti dicta ad.
                          Iure, incidunt.
                     </p>
                     <h3>Parrafo 2</h3>
-                    <p>
+                    <p class="parrafoNegro">
                         este es el segundo parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Impedit architecto, tempore, nihil doloremque officia voluptatibus possimus maxime 
                         quibusdam praesentium mollitia odio cupiditate culpa? Commodi suscipit corrupti dicta ad.
                          Iure, incidunt.
                     </p>
                     <h3>Parrafo 3</h3>
-                    <p>
+                    <p id="parrafo3">
                         este es el tercer parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Impedit architecto, tempore, nihil doloremque officia voluptatibus possimus maxime 
                         quibusdam praesentium mollitia odio cupiditate culpa? Commodi suscipit corrupti dicta ad.
@@ -67,9 +68,29 @@
                     </p>
                     <span>Este es un texto corto</span>
                 </article>
-                <img src="./media/linda.jpg" alt='foto de pimpi'/>  
+                <img class="imagenPequena" src="./media/linda.jpg" alt='foto de pimpi'/>  
             </section>
-            <section>seccion 2</section>
+            <section >
+                <div class="contenedorConMargen">
+                    <div>Div1</div>
+                    <div>Div2</div>
+                    <div>Div3</div>
+                <div class="contenedorConDivs">
+                    <div class="divTest">Div1</div>
+                    <div class="divTest">Div2</div>
+                    <div class="divTest">Div3</div>
+                    <div class="divTest">Div4</div>
+                    <div class="divTest">Div5</div>
+                    <div class="divTest">Div6</div>
+                    <div class="divTest">Div7</div>
+                    <div class="divTest">Div8</div>
+                    <div class="divTest">Div9</div>
+                    <div class="divTest">Div10</div>
+                    <div class="divTest">Div11</div>
+                    <div class="divTest">Div12</div>
+
+                </div>
+            </section>
             <section>seccion 3</section>
         </main>
         <footer>este es el footer de contacto</footer>    
