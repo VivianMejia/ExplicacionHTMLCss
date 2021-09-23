@@ -11,31 +11,31 @@ ul{
     justify-content: space-between; 
     padding: 10px;
 }
-.mainButton {
-    background-color: cornflowerblue;
-    color: white; 
+
+.button{
     border: 0px;
     padding: 5px 10px; 
     border-radius: 10px; 
     font-weight: bolder;
     
 }
-.mainButton:hover {
+.button:hover {
     cursor: pointer;
-    box-shadow: 1px 1px blue;
     transform: scale(1.1);
+
+}
+.mainButton {
+    background-color: cornflowerblue;
+    color: white;    
+}
+
+.mainButton:hover {
+        box-shadow: 1px 1px blue;   
 }
 .secondaryButton {
     background-color: rgb(124, 216, 135);
     color: white; 
-    border: 0px;
-    padding: 5px 10px; 
-    border-radius: 10px; 
-    font-weight: bolder;
-    
 }
 .secondaryButton:hover {
-    cursor: pointer;
     box-shadow: 1px 1px rgb(10, 106, 45);
-    transform: scale(1.1);
 }
